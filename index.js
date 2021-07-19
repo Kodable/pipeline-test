@@ -6,5 +6,9 @@ app.get('/', function (req, res) {
   res.send('OK')
 });
 
+app.get('/new-route', function (req, res) {
+  res.send('OK!')
+});
+
 console.log('app started');
 app.listen(PORT);
